@@ -1,0 +1,41 @@
+# --- Ambientes Virtuais ---
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+Include/
+pyvenv.cfg
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Logs e Dados Temporários ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- TensorFlow / Keras ---
+# Ignorar modelos salvos muito grandes (opcional, se você não quiser subir o .h5)
+*.h5
+*.keras
+*.tflite
+checkpoint
+*.ckpt.*
+
+# --- VS Code e IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Datasets Grandes ---
+# Se os arquivos CSV ficarem muito grandes, você pode ignorá-los e deixar apenas o link no README
+# datasets/*.csv
